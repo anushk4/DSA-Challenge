@@ -1,4 +1,5 @@
 // comparing adjacent prices and adding to profit
+// submission: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/submissions/988649184/
 
 int maxProfit(int* prices, int pricesSize){
     int profit = 0;
