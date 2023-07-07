@@ -1,6 +1,7 @@
 // using hash table
 // constraints: without modifying the original array and only constant extra space
 // time complexity: O(n), space complexity: O(n)
+// submission: https://leetcode.com/problems/find-the-duplicate-number/submissions/988650715/
 
 int findDuplicate(int* nums, int numsSize){
     int* hash=(int*)malloc((numsSize-1)*sizeof(int));
