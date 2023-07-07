@@ -1,4 +1,5 @@
 // time complexity: O(n) ; space complexity: O(n)
+// submission: https://leetcode.com/problems/remove-duplicates-from-sorted-array/submissions/988388001/
 
 int removeDuplicates(int* nums, int numsSize){
     int* tmp = (int*)malloc(numsSize*sizeof(int));
