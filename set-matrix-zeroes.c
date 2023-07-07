@@ -8,6 +8,7 @@
 
 // Time complexity- O(mn)
 // Space complexity- O(m+n)
+// submission: https://leetcode.com/problems/set-matrix-zeroes/submissions/986917329/
 
 void setZeroes(int** matrix, int matrixSize, int* matrixColSize){
      int *rows = (int*)malloc(matrixSize*sizeof(int));
