@@ -1,5 +1,4 @@
 // time complexity: O(n) ; space complexity: O(n)
-// runtime: 10 ms (beating 97.14%)
 
 int removeDuplicates(int* nums, int numsSize){
     int* tmp = (int*)malloc(numsSize*sizeof(int));
