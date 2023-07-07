@@ -1,3 +1,5 @@
+// submission: https://leetcode.com/problems/two-sum/submissions/988107420/
+
 int* twoSum(int* nums, int numsSize, int target, int* returnSize){
     int *arr = malloc(2*sizeof(int));
     *returnSize = 2;
