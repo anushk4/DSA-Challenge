@@ -3,7 +3,7 @@
 // logic: another way to ask to find a subarray with minimum sum
 
 int maxScore(int* cardPoints, int cardPointsSize, int k){
-        int window = cardPointsSize - k;
+    int window = cardPointsSize - k;
     int total = 0;
     for (int i = 0; i < cardPointsSize; i++){
         total += cardPoints[i];
